@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.random {
+  background-color: #008CBA;
+}
+
+.random:hover {
+  background-color: #007BBD;
+}
+
+.results h2, .results p {
+  padding: 10px;
+  background-color: white;
+  margin: 10px 0;
+}
+
+.results a {
+  color: black;
+  text-decoration: none;
+}
+
+.results a:hover {
+  color: #4CAF50;
+}
